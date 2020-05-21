@@ -34,7 +34,6 @@ class Counter extends Component {
                 <button onClick={this.handleIncrement} className="btn btn-secondary btn-sm">
                     increment
                 </button>
-                {this.renderTags()}
             </React.Fragment>
         );
     }
